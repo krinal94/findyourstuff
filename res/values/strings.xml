@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PleasureTrip</string>
+    <string name="action_settings">Home</string>
+    <string name="Hello_world">Hello_world</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="Home">Home</string>
+    <string name="imgdesc">imgdesc</string>
+    <string name="desc_list_item_icon">list item icon</string>
+    <string name="title_activity_main">PleasureTrip</string>
+    <string name="list">list</string>
+    <string name="title_activity_login_signup">LoginSignup</string>
+    <string name="title_activity_aboutus">AboutUs</string>
+
+    <string-array name="abctitles">
+        <item>Home</item>
+        <item>Login/SignUp</item>
+        <item>About Us</item>
+        <item>Favourites</item>
+        <item>Feedback</item>
+        <item>Help Center</item>
+        <item>Settings</item>
+    </string-array>
+
+    <array name="abcicons">
+        <item>@drawable/home</item>
+        <item>@drawable/login</item>
+        <item>@drawable/about</item>
+        <item>@drawable/ic_favourites</item>
+        <item>@drawable/ic_feedback</item>
+        <item>@drawable/help</item>
+        <item>@drawable/tool</item>
+    </array>
+
+    <string-array name="titles">
+        <item>Hotels</item>
+        <item>Restaurants</item>
+        <item>Cab</item>
+        <item>Beach Resorts</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/hotel1</item>
+        <item>@drawable/ricon1</item>
+        <item>@drawable/taxi2</item>
+        <item>@drawable/bicon1</item>
+    </array>
+    <array name="hotelimage">
+        <item>@drawable/hotel1</item>
+        <item>@drawable/ricon1</item>
+        <item>@drawable/taxi2</item>
+        <item>@drawable/bicon1</item>
+    </array>
+
+    <string name="title_activity_hotel_search">Hotels</string>
+    <string name="title_activity_restaurant_search">Restaurants</string>
+    <string name="title_activity_cab_search">Cabs</string>
+    <string name="title_activity_beach_resorts_search">Beach Resorts</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_hotel">Hotels</string>
+    <string name="title_activity_detail_hotel">Hotel</string>
+    <string name="title_activity_beach_resort">Beach Resorts</string>
+    <string name="title_activity_restaurant">Restaurants</string>
+    <string name="title_activity_cab">Cabs</string>
+    <string name="title_activity_hotel_details">Hotel Details</string>
+    <string name="title_activity_beach_resorts">Beach Resorts</string>
+    <string name="title_activity_guidelines">Guidelines</string>
+    <string name="title_activity_technical">Technical Support</string>
+
+</resources>

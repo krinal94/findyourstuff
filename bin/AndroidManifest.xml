@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.pleasuretrip"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:icon="@drawable/icon1"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.HomeListFragment"
+            android:icon="@drawable/home"
+            android:label="@string/Home" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.login_signupFragment"
+            android:icon="@drawable/login"
+            android:label="@string/title_activity_login_signup" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.AboutUsFragment"
+            android:icon="@drawable/about"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.FeedbackFragment"
+            android:icon="@drawable/ic_feedback"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.HelpCenterFragment"
+            android:icon="@drawable/help"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="info.pleasuretrip.slidingmenu.SettingsFragment"
+            android:icon="@drawable/tool"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name=".HotelSearch"
+            android:icon="@drawable/hotel1"
+            android:label="@string/title_activity_hotel_search" >
+        </activity>
+        <activity
+            android:name=".RestaurantSearch"
+            android:icon="@drawable/ricon1"
+            android:label="@string/title_activity_restaurant_search" >
+        </activity>
+        <activity
+            android:name=".CabSearch"
+            android:icon="@drawable/taxi2"
+            android:label="@string/title_activity_cab_search" >
+        </activity>
+        <activity
+            android:name=".BeachResortsSearch"
+            android:icon="@drawable/bicon1"
+            android:label="@string/title_activity_beach_resorts_search" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:icon="@drawable/login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".HotelActivity"
+            android:icon="@drawable/hotel1"
+            android:label="@string/title_activity_hotel" >
+        </activity>
+        <activity
+            android:name=".RestaurantActivity"
+            android:icon="@drawable/ricon1"
+            android:label="@string/title_activity_restaurant" >
+        </activity>
+        <activity
+            android:name=".HotelDetails"
+            android:icon="@drawable/hotel1"
+            android:label="@string/title_activity_hotel_details" >
+        </activity>
+        <activity
+            android:name=".BeachResortsActivity"
+             android:icon="@drawable/bicon1"
+            android:label="@string/title_activity_beach_resorts" >
+        </activity>
+        <activity
+            android:name=".CabActivity"
+             android:icon="@drawable/taxi2"
+            android:label="@string/title_activity_cab" >
+        </activity>
+        <activity
+            android:name=".GuidelinesActivity"
+            android:icon="@drawable/help"
+            android:label="@string/title_activity_guidelines" >
+        </activity>
+        <activity
+            android:name=".TechnicalActivity"
+            android:icon="@drawable/help"
+            android:label="@string/title_activity_technical" >
+        </activity>
+    </application>
+
+</manifest>

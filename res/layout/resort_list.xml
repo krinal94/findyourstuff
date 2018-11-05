@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+         android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/resorts_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/resort_img"/>
+
+        <Button
+            android:id="@+id/View_details"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/resorts_img"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/roundrect"
+            android:text="View Details"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/resort_name"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@+id/resorts_img"
+            android:text="Resort name"
+            android:textSize="17dp" 
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignLeft="@+id/resort_name"
+            android:layout_toRightOf="@+id/resorts_img"
+            android:layout_below="@+id/resort_name"
+            android:text="Location"
+            android:textSize="17dp"
+            android:textColor="#000000" />
+
+</RelativeLayout>
